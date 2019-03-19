@@ -1,0 +1,22 @@
+
+
+mixplay.com/plans
+
+GET mixplay.com/movies
+GET mixplay.com/movies/123
+POST mixplay.com/movies
+PATCH mixplay.com/movie/123
+PUT mixplay.com/movie/123
+DELETE mixplay.com/movies/123
+
+
+composer create-project slim/slim-skeleton/api-rest
+
+php -S localhost:8888 -t public public/index.php
+
+
+
+
+
+
+
